@@ -23,12 +23,12 @@ public class MathUtility {
             throw new IllegalArgumentException("N must be in 0-20");
             //nguoi dung nhap vao n !=(0,20) thi thong bao n khongo hop le
         }        
-        long result=1;
-        for(int i=2;i<=n;i++){
-            result *=i;
-        }
-        return result;
-            //return n*getFactorial(n-1);
+//        long result=1;
+//        for(int i=2;i<=n;i++){
+//            result *=i;
+//        }
+//        return result;
+            return n*getFactorial(n-1);
     }
     
     public static void main(String[] args) {
